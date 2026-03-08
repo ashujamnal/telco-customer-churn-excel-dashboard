@@ -1,74 +1,113 @@
-# Telco Customer Churn Analysis Dashboard (Excel)
+# Telco Customer Churn Analysis (Excel Dashboard)
 
-## Overview
+## Project Overview
 
-Customer churn is one of the biggest challenges for telecom companies because losing customers directly impacts revenue.
-This project analyzes a telecom customer dataset to understand **why customers churn and which segments are at the highest risk**.
+Customer churn is a major challenge for telecom companies because losing existing customers directly impacts revenue and increases acquisition costs.
 
-Using Excel, Power Pivot, and DAX, I built an **end-to-end churn analysis workflow and an interactive executive dashboard** that highlights key churn drivers and business risks.
+In this project, I analyzed a telecom customer dataset to understand **why customers churn, which segments are most at risk, and how much revenue the company could potentially lose**.
+
+Using **Microsoft Excel, Power Pivot, and DAX**, I built an **interactive executive dashboard** that highlights churn drivers, customer lifecycle behavior, and revenue impact.
 
 ---
 
 ## Problem Statement
 
-The telecom company is experiencing a relatively high churn rate but lacks clear visibility into:
+Telecom companies often struggle to identify **which customers are likely to churn and what factors drive that decision**.
 
-* Which customers are most likely to churn
-* What factors are driving churn
-* How churn affects revenue
+The objective of this project was to:
 
-The objective of this analysis is to **identify churn drivers, quantify revenue risk, and provide insights that can support retention strategies**.
-
----
-
-## Approach
-
-The project follows a structured analytics workflow:
-
-* Data cleaning and transformation using Excel
-* Feature engineering (tenure groups, CLTV segments, churn indicators)
-* Descriptive statistics and distribution analysis
-* Correlation analysis to identify relationships with churn
-* Customer segmentation using pivot tables
-* KPI development using **Power Pivot and DAX**
-* Creation of an **interactive executive dashboard with slicers**
+* Identify **key drivers of customer churn**
+* Understand **customer behavior across lifecycle stages**
+* Measure the **financial impact of churn**
+* Build a **dashboard that supports business decision-making**
 
 ---
 
-## Key Insights
+## Dataset
 
-* Customers with **month-to-month contracts show the highest churn risk** compared to long-term contracts.
-* **New customers in the first year are significantly more likely to churn**, indicating onboarding and early engagement issues.
-* **Fiber internet users churn more frequently than DSL users**, suggesting potential service or pricing concerns.
+* Dataset: Telco Customer Churn Dataset
+* Total Customers Analyzed: **7,043**
+
+The dataset includes information such as:
+
+* Customer tenure
+* Contract type
+* Internet service
+* Payment method
+* Monthly charges
+* Customer lifetime value (CLTV)
+
+---
+
+## Tools & Techniques
+
+* Microsoft Excel
+* Power Pivot
+* DAX Measures
+* Pivot Tables
+* Descriptive Statistics
+* Correlation Analysis
+* Customer Segmentation
+* Interactive Dashboard Design
 
 ---
 
 ## Business Impact
 
-The analysis highlights that customer churn represents **approximately $2.9M in revenue at risk**.
-By identifying high-risk customer segments, the company can prioritize retention strategies such as targeted offers, improved onboarding, and contract incentives.
+This analysis helps business stakeholders understand where churn is happening and which customers require retention strategies.
+
+Key outcomes from the analysis:
+
+* **26.5% overall churn rate**, which is above the telecom industry benchmark (~20%).
+* Customers who churned contributed to approximately **$2.9M in revenue at risk**.
+* Identifying high-risk segments allows businesses to **target retention campaigns and reduce revenue loss**.
+
+---
+
+## Key Insights
+
+**1. Contract Type Drives Churn**
+
+* Customers on **month-to-month contracts show ~43% churn**, significantly higher than longer contract plans.
+
+**2. Early Customer Lifecycle Risk**
+
+* Customers in their **first 6 months have ~53% churn probability**, making onboarding experience critical.
+
+**3. Internet Service Impact**
+
+* **Fiber optic users churn around 41–42%**, which is much higher than DSL customers.
+
+**4. Payment Behavior**
+
+* Customers paying via **electronic check show the highest churn rates**, suggesting billing friction or pricing concerns.
+
+**5. Customer Value Risk**
+
+* A significant portion of churn comes from **medium and high CLTV segments**, indicating potential long-term revenue loss.
 
 ---
 
 ## Dashboard Features
 
-* Executive KPI cards (Churn Rate, Revenue at Risk, CLTV, Tenure)
-* Root cause analysis (Contract type, Tenure, Internet service)
-* Customer value segmentation (CLTV categories)
-* Interactive slicers for segment-level exploration
+The executive dashboard provides:
+
+* KPI overview of churn metrics
+* Churn analysis by contract type, tenure, and service type
+* Customer value segmentation
+* Revenue at risk analysis
+* Interactive slicers for customer segmentation
+
+The dashboard allows stakeholders to **quickly identify churn patterns and explore customer segments dynamically**.
 
 ---
 
-## Tools Used
+## Dashboard Preview
 
-* Microsoft Excel
-* Power Pivot
-* DAX
-* Pivot Tables & Pivot Charts
-* Data Visualization
+![Dashboard Preview](images/dashboard_preview.png)
 
 ---
 
 ## Author
 
-Ashutosh Jamnal
+**Ashutosh Jamnal**
